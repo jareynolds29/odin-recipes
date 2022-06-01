@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    background-image: url("/img/odin-recipes-website-background.jpg");
+    background-size: cover;
+    color: #fff;
+}
+
+/* Primary Recipe Container Style */
+.recipe-container {
+    margin: 20px auto 20px auto;
+    background-color: rgba(100,100,100,0.5);
+    width: 80%;
+    height: 80%;
+    border-radius: 15px;
+    backdrop-filter: blur(5px);
+    box-shadow: 2px 2px 5px #000;
+}
+
+/* Page Header/Title */
+.title {
+    text-align: center;
+    margin: 25px 0 25px 0;
+}
+
+/* Each Content Section */
+section {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 30px 0 30px;
+}
+
+/* Center Recipe Image */
+img {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+
+ul li {
+    list-style: none;
+    font-weight: lighter;
+}
+ol li {
+    list-style: none;
+    padding: 10px 10px 10px 10px;
+    font-weight: lighter;
+}
+h2 {
+    margin-top: 25px;
+    text-decoration: underline;
+}
+
+p {
+    font-weight: lighter;
+}
+
+.navigation {
+    display: flex;
+    padding: 20px 0 20px 0;
+}
+.button {
+    background-color: #fff;
+    border-radius: 5px;
+    color: #008fb9;
+    text-decoration: none;
+    margin: 0 auto;
+    padding: 0.3em;
+    text-align: center;
+    display: inline-block;
+    justify-content: center;
+    border: 2px solid #008fb9;
+    transition: ease-in-out 0.2s;
+}
+
+.button:focus, .button:hover {
+    transform: scaleX(105%);
+    transform: scaleY(105%);
+    transition: ease-in-out 0.2s;
+    box-shadow: 1px 1px 2px #000;
+}
