@@ -9,7 +9,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.5;
-    background-image: url("../img/odin-recipes-website-background.jpg");
+    background-image: url("/../img/odin-recipes-website-background.jpg");
     background-size: cover;
     color: #fff;
 }
